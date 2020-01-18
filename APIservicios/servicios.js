@@ -12,9 +12,9 @@ console.log('Iniciado servicio en el puerto: ' + port);
 //configuracion datos DB
 //la configuracion puede estar en el archivo .env
 dbConfig = {
-	user          : process.env.NODE_ORACLEDB_USER || "okcasa",
-	password      : process.env.NODE_ORACLEDB_PASSWORD ,
-	connectString : process.env.NODE_ORACLEDB_CONNECTIONSTRING || "localhost:1521/xe",
+	user          : process.env.NODE_ORACLEDB_USER,
+	password      : process.env.NODE_ORACLEDB_PASSWORD,
+	connectString : process.env.NODE_ORACLEDB_CONNECTIONSTRING,
 	externalAuth  : process.env.NODE_ORACLEDB_EXTERNALAUTH ? true : false
 };
 console.log("Config DB:")	
@@ -55,6 +55,7 @@ async function init()
 		//MAGIA DE EXPRESS - USA PROMESAS - RETORNA EL JSON.
 		).then(rows => 
 			{	
+				console.log("Entregando informacion de los servicios");
 				res.json(rows);
 			})
 	  		.catch(err => {
@@ -62,7 +63,7 @@ async function init()
 	  		});;
 		conexion.close()
 		//Informacion de la consulta
-		console.log(result.rows);
+		
 		}catch (err) {console.error(err);
   		}finally 
   		{

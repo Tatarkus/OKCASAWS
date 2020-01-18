@@ -31,9 +31,9 @@ async function init()
 	});
 
 	//Obtiene todos los servicios y retorna un json
-	app.get("/servicios", async (req, res, next) => 
+	app.get("/equiposdisponibles", async (req, res, next) => 
 	{
-		console.log("Consultando todos los servicios");
+		console.log("Consultando los equipos disponibles");
 		console.log('Conectandose con la base de datos...');
 	  	try 
 		{
