@@ -12,9 +12,9 @@ console.log('Iniciado servicio en el puerto: ' + port);
 //configuracion datos DB
 //la configuracion puede estar en el archivo .env
 dbConfig = {
-	user          : process.env.NODE_ORACLEDB_USER,
-	password      : process.env.NODE_ORACLEDB_PASSWORD,
-	connectString : process.env.NODE_ORACLEDB_CONNECTIONSTRING,
+	user          : process.env.NODE_ORACLEDB_USER || "okcasa",
+	password      : process.env.NODE_ORACLEDB_PASSWORD || "123",
+	connectString : process.env.NODE_ORACLEDB_CONNECTIONSTRING || "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)))",
 	externalAuth  : process.env.NODE_ORACLEDB_EXTERNALAUTH ? true : false
 };
 console.log("Config DB:")	
@@ -49,13 +49,29 @@ async function init()
 			FROM servicio
 			`,// poner como variable, mayor seguridad, https://github.com/oracle/node-oracledb/issues/946
 			{
-				//opcional
-				// maxRows: 1
+				  //outFormat: oracledb.OUT_FORMAT_OBJECT
 			}
 		//MAGIA DE EXPRESS - USA PROMESAS - RETORNA EL JSON.
 		).then(rows => 
 			{	
-				console.log("Entregando informacion de los servicios");
+				var mijson={};
+				//var fila = {idservicio:"1",descripcion:"asad"};
+				//console.log(fila.dservicio);
+				//console.log(rows.metaData.name[0]);
+				console.log(rows.metaData[1])
+				console.log(rows.rows[0][1]); //[fila][id,descripcion]
+				console.log(rows.rows.length);
+				
+				for (var i = 0; i < rows.rows.length; i++) 
+				{
+					for (var j = 0; i < rows.metaData.length; i++) 
+					{	
+						//var fila = { rows.metaData[j]:rows.rows[i][j] };
+						console.log(rows.metaData[j]);
+						console.log(rows.rows[i][j]);
+					}
+				}
+				//console.log("Entregando informacion de los servicios");
 				res.json(rows);
 			})
 	  		.catch(err => {
