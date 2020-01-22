@@ -54,6 +54,9 @@ async function init()
 		//MAGIA DE EXPRESS - USA PROMESAS - RETORNA EL JSON.
 		).then(rows => 
 			{	
+				if (rows.rows.length>0) 
+				{
+				
 				var mijson="{\"filas\":[";					
 				for (var i = 0; i < rows.rows.length; i++) 
 				{
@@ -72,6 +75,12 @@ async function init()
 				console.log(mijson);
 				json = JSON.parse(mijson)
 				res.json(json);
+			
+			} else{
+				rows["filas"] = rows["metaData"];
+				delete rows.metaData;
+				res.json(rows);
+			}
 			})
 	  		.catch(err => {
 				return
