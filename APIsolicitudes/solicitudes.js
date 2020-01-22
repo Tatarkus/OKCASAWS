@@ -1,11 +1,20 @@
 var express    = require('express');
 var oracledb    = require('oracledb');
-var app        = express(); 
+var multer = require('multer');
 var cors = require('cors')
 require('dotenv').config();
-var port = process.env.APP_PORT || 3001;
+var bodyParser = require('body-parser');
 
+var app        = express(); 
+var port = process.env.APP_PORT || 3001;
+var upload = multer();
+
+app.use(upload.array()); 
+app.use(bodyParser.json()); // soporte para cuerpos de pagina en json
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('public'));
 app.use(cors());
+
 app.listen(port);
 console.log('Iniciado servicio en el puerto: ' + port);
 
@@ -14,7 +23,7 @@ console.log('Iniciado servicio en el puerto: ' + port);
 dbConfig = {
 	user          : process.env.NODE_ORACLEDB_USER || "okcasa",
 	password      : process.env.NODE_ORACLEDB_PASSWORD ,
-	connectString : process.env.NODE_ORACLEDB_CONNECTIONSTRING || "localhost:1521/xe",
+	connectString : process.env.NODE_ORACLEDB_CONNECTIONSTRING || "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=xe)))",
 	externalAuth  : process.env.NODE_ORACLEDB_EXTERNALAUTH ? true : false
 };
 console.log("Config DB:")	
@@ -58,7 +67,38 @@ async function init()
 		//MAGIA DE EXPRESS - USA PROMESAS - RETORNA EL JSON.
 		).then(rows => 
 			{	console.log("Entregando solicitudes pendientes");
+				console.log(rows.metaData.length);
+				console.log(rows.rows.length);
+				if (rows.rows.length>0) 
+				{
+				
+				var mijson="{\"filas\":[";					
+				for (var i = 0; i < rows.rows.length; i++) 
+				{
+					mijson+="{";
+					for (var j = 0; j < rows.metaData.length; j++) 
+					{	
+						var llave = rows.metaData[j].name;
+						var valor = rows.rows[i][j];
+						mijson+="\""+llave+"\":\""+valor+"\",";	
+					}
+					mijson = mijson.substring(0, mijson.length - 1)
+					mijson+="},";
+				}
+				mijson = mijson.substring(0, mijson.length - 1)
+				mijson+="]}";
+				console.log(mijson);
+				json = JSON.parse(mijson)
+				res.json(json);
+			
+			} else{
+				rows["filas"] = rows["metaData"];
+				delete rows.metaData;
 				res.json(rows);
+			}
+
+
+				
 			})
 	  		.catch(err => {
 				return
@@ -73,18 +113,11 @@ async function init()
 		}		
 	});
 }
-	//obtiene 1 servicio recibiendo la id
-	/*
-	app.get("/servicios/:idservicio", (req, res, next) => {
-		const conexion = await oracledb.getConnection(dbConfig);
-		console.log("Consultando el servicio con id="+req.params.idProducto);
-		conexion.query("SELECT * FROM servicio where id= ?", [req.params.idProducto])
-		.then(rows => {	
-			res.json(rows);
-			})
-	  .catch(err => {
-		return
-	  });
-	});*/
-		
+
+	app.post('/nueva', function(req, res) {
+		console.log("Insertando nueva solicitud")
+		console.log(req.body);
+		res.send("recieved your request!");
+});
+	
 init();
