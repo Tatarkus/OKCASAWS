@@ -1,0 +1,6 @@
+Instalar NODE
+	https://nodejs.org/en/
+
+Ejecutar en consola en la raiz de la carpeta:
+	npm install
+	node servicios
