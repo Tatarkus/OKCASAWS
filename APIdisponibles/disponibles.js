@@ -7,7 +7,7 @@ var port = process.env.APP_PORT || 3001;
 
 app.use(cors());
 app.listen(port);
-console.log('Iniciado servicio en el puerto: ' + port);
+console.log('Iniciado servicio equipos disponible en el puerto: ' + port);
 
 //configuracion datos DB
 //la configuracion puede estar en el archivo .env
@@ -56,6 +56,7 @@ async function init()
 		//MAGIA DE EXPRESS - USA PROMESAS - RETORNA EL JSON.
 		).then(rows => 
 			{	
+				console.log("Entregando equipos disponibles...");
 				res.json(rows);
 			})
 	  		.catch(err => {
@@ -63,7 +64,6 @@ async function init()
 	  		});;
 		conexion.close()
 		//Informacion de la consulta
-		console.log(result.rows);
 		}catch (err) {console.error(err);
   		}finally 
   		{
