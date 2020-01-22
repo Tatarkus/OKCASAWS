@@ -1,11 +1,20 @@
 var express    = require('express');
 var oracledb    = require('oracledb');
-var app        = express(); 
+var multer = require('multer');
 var cors = require('cors')
 require('dotenv').config();
-var port = process.env.APP_PORT || 3001;
+var bodyParser = require('body-parser');
 
+var app        = express(); 
+var port = process.env.APP_PORT || 3001;
+var upload = multer();
+
+app.use(upload.array()); 
+app.use(bodyParser.json()); // soporte para cuerpos de pagina en json
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('public'));
 app.use(cors());
+
 app.listen(port);
 console.log('Iniciado servicio en el puerto: ' + port);
 
@@ -73,18 +82,11 @@ async function init()
 		}		
 	});
 }
-	//obtiene 1 servicio recibiendo la id
-	/*
-	app.get("/servicios/:idservicio", (req, res, next) => {
-		const conexion = await oracledb.getConnection(dbConfig);
-		console.log("Consultando el servicio con id="+req.params.idProducto);
-		conexion.query("SELECT * FROM servicio where id= ?", [req.params.idProducto])
-		.then(rows => {	
-			res.json(rows);
-			})
-	  .catch(err => {
-		return
-	  });
-	});*/
-		
+
+	app.post('/nueva', function(req, res) {
+		console.log("Insertando nueva solicitud")
+		console.log(req.body);
+		res.send("recieved your request!");
+});
+	
 init();
