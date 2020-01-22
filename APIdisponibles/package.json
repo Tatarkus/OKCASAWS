@@ -2,7 +2,7 @@
   "name": "disponiblessapi",
   "version": "1.0.0",
   "description": "API de OKCasa donde se puede obtener informacion de los equipos disponibles",
-  "main": "servicios.js",
+  "main": "disponibles.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

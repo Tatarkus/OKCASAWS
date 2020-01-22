@@ -6,7 +6,7 @@ require('dotenv').config();
 var bodyParser = require('body-parser');
 
 var app        = express(); 
-var port = process.env.APP_PORT || 3001;
+var port = process.env.APP_PORT || 3002;
 var upload = multer();
 
 app.use(upload.array()); 

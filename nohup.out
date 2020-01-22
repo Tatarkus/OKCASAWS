@@ -1,0 +1,772 @@
+Iniciado servicio en el puerto: 3000
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/O',
+  externalAuth: false
+}
+Consultando todos los servicios
+Conectandose con la base de datos...
+[Error: ORA-12514: TNS:listener does not currently know of service requested in connect descriptor] {
+  errorNum: 12514,
+  offset: 0
+}
+Iniciado servicio en el puerto: 3000
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/O',
+  externalAuth: false
+}
+Consultando todos los servicios
+Conectandose con la base de datos...
+[Error: ORA-12514: TNS:listener does not currently know of service requested in connect descriptor] {
+  errorNum: 12514,
+  offset: 0
+}
+Iniciado servicio en el puerto: 3000
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
+  externalAuth: false
+}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+internal/modules/cjs/loader.js:322
+      throw err;
+      ^
+
+Error: Cannot find module '/home/ec2-user/OKCasa/APIdisponibles/servicios.js'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (internal/modules/cjs/loader.js:314:19)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:696:18)
+    at resolveMainPath (internal/modules/run_main.js:12:25)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:65:24)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  path: '/home/ec2-user/OKCasa/APIdisponibles/package.json',
+  requestPath: '/home/ec2-user/OKCasa/APIdisponibles'
+}
+Iniciado servicio en el puerto: 3000
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
+  externalAuth: false
+}
+events.js:298
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at Server.listen (net.js:1445:7)
+    at Function.listen (/home/ec2-user/OKCasa/APIservicios/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ec2-user/OKCasa/APIservicios/servicios.js:9:5)
+    at Module._compile (internal/modules/cjs/loader.js:1144:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1336:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+internal/modules/cjs/loader.js:322
+      throw err;
+      ^
+
+Error: Cannot find module '/home/ec2-user/OKCasa/APIdisponibles/servicios.js'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (internal/modules/cjs/loader.js:314:19)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:696:18)
+    at resolveMainPath (internal/modules/run_main.js:12:25)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:65:24)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  path: '/home/ec2-user/OKCasa/APIdisponibles/package.json',
+  requestPath: '/home/ec2-user/OKCasa/APIdisponibles'
+}
+Iniciado servicio en el puerto: 3000
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
+  externalAuth: false
+}
+Iniciado servicio en el puerto: 3000
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
+  externalAuth: false
+}
+Iniciado servicio equipos disponible en el puerto: 3001
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
+  externalAuth: false
+}
+Iniciado servicio en el puerto: 3002
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
+  externalAuth: false
+}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Iniciado servicio equipos disponible en el puerto: 3001
+Config DB:
+Iniciado servicio en el puerto: 3000
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
+  externalAuth: false
+}
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
+  externalAuth: false
+}
+Iniciado servicio en el puerto: 3002
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
+  externalAuth: false
+}
+Iniciado servicio en el puerto: 3004
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
+  externalAuth: false
+}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando solicitudes pendientes
+5
+2
+{"filas":[{"IDSOLICITUD":"502","VALORINSP":"10","DESCUENTO":"10","IDCLIENTE":"99","FECHASOLICITUD":"Mon Jan 27 2020 20:56:49 GMT+0000 (Coordinated Universal Time)"},{"IDSOLICITUD":"999999","VALORINSP":"5000","DESCUENTO":"10","IDCLIENTE":"201","FECHASOLICITUD":"Wed Jan 01 2020 15:00:00 GMT+0000 (Coordinated Universal Time)"}]}
+Consultando los equipos disponibles
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando equipos disponibles...
+{"filas":[{"IDEQUIPO":"1"},{"IDEQUIPO":"2"},{"IDEQUIPO":"4"},{"IDEQUIPO":"5"},{"IDEQUIPO":"6"},{"IDEQUIPO":"7"},{"IDEQUIPO":"9"},{"IDEQUIPO":"10"}]}
+Iniciado servicio en el puerto: 3004
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
+  externalAuth: false
+}
+Consultando todos los clienes
+Conectandose con la base de datos...
+Conexión Exitosa
+Entregando clientes
+3
+50
+{"filas":[{"IDCLIENTE":"1","EMAIL":"MARCOSYAMIR.PUDAHUEL@gmail.com","NOMBRE":"MARCOS YAMIR CARRERAS"},{"IDCLIENTE":"2","EMAIL":"TITOJAVIER.ESTACIONCENTRAL@gmail.com","NOMBRE":"TITO JAVIER NEGRETE"},{"IDCLIENTE":"3","EMAIL":"MANUEL.LOPRADO@gmail.com","NOMBRE":"MANUEL CUELLAR"},{"IDCLIENTE":"4","EMAIL":"ANDRESALONSO.SANTIAGO@gmail.com","NOMBRE":"ANDRES ALONSO MARIN"},{"IDCLIENTE":"5","EMAIL":"CECILIADELASMERCEDES.PROVIDENCIA@gmail.com","NOMBRE":"CECILIA DE LAS MERCEDES GUERRERO"},{"IDCLIENTE":"6","EMAIL":"ALEXCRISTIAN.LAGRANJA@gmail.com","NOMBRE":"ALEX CRISTIAN HITSCHERICH"},{"IDCLIENTE":"7","EMAIL":"LUCIADELCARMEN.MAIPU@gmail.com","NOMBRE":"LUCIA DEL CARMEN VALENZUELA"},{"IDCLIENTE":"8","EMAIL":"EVELYNSIMONEYSANDY.NUNOA@gmail.com","NOMBRE":"EVELYN SIMONEY SANDY PEREZ"},{"IDCLIENTE":"9","EMAIL":"XIMENADELPILAR.CONCHALI@gmail.com","NOMBRE":"XIMENA DEL PILAR CORNEJO"},{"IDCLIENTE":"10","EMAIL":"JORGEANDRES.LAGRANJA@gmail.com","NOMBRE":"JORGE ANDRES GUTIERREZ"},{"IDCLIENTE":"11","EMAIL":"JAVIERADOLFO.INDEPENDENCIA@gmail.com","NOMBRE":"JAVIER ADOLFO RAMIREZ"},{"IDCLIENTE":"12","EMAIL":"VIVIANAC.LOPRADO@gmail.com","NOMBRE":"VIVIANA C FARIAS"},{"IDCLIENTE":"13","EMAIL":"LUISPATRICIO.LACISTERNA@gmail.com","NOMBRE":"LUIS PATRICIO BRAVO"},{"IDCLIENTE":"14","EMAIL":"SOLANGEVERONICA.ELBOSQUE@gmail.com","NOMBRE":"SOLANGE VERONICA BRICENO"},{"IDCLIENTE":"15","EMAIL":"MARCELORODRIGO.SANTIAGO@gmail.com","NOMBRE":"MARCELO RODRIGO ESCUDERO"},{"IDCLIENTE":"16","EMAIL":"MAURICIOENRIQUE.NULL@gmail.com","NOMBRE":"MAURICIO ENRIQUE HERMOSILLA"},{"IDCLIENTE":"17","EMAIL":"JUANDEDIOS.PENALOLEN@gmail.com","NOMBRE":"JUAN DE DIOS MARTEL"},{"IDCLIENTE":"18","EMAIL":"ELIZABETHEDITH.ELBOSQUE@gmail.com","NOMBRE":"ELIZABETH EDITH SYMMES"},{"IDCLIENTE":"19","EMAIL":"FRANCISCOANTONIO.LAGRANJA@gmail.com","NOMBRE":"FRANCISCO ANTONIO MUNOZ"},{"IDCLIENTE":"20","EMAIL":"CARLOSMAURICIO.PUENTEALTO@gmail.com","NOMBRE":"CARLOS MAURICIO GOMEZ"},{"IDCLIENTE":"21","EMAIL":"PAOLAALEJANDRA.PENAFLOR@gmail.com","NOMBRE":"PAOLA ALEJANDRA TOLEDO"},{"IDCLIENTE":"22","EMAIL":"ARIELANDRES.LAFLORIDA@gmail.com","NOMBRE":"ARIEL ANDRES SOTO"},{"IDCLIENTE":"23","EMAIL":"CRISTIANESTEBAN.MACUL@gmail.com","NOMBRE":"CRISTIAN ESTEBAN CISTERNA"},{"IDCLIENTE":"24","EMAIL":"SUSANA.PIRQUE@gmail.com","NOMBRE":"SUSANA BARRIOS"},{"IDCLIENTE":"25","EMAIL":"BERTADELCARMEN.CERRILLOS@gmail.com","NOMBRE":"BERTA DEL CARMEN HERRERA"},{"IDCLIENTE":"26","EMAIL":"ALEJANDROSALVADOR.SANTIAGO@gmail.com","NOMBRE":"ALEJANDRO SALVADOR ZUNIGA"},{"IDCLIENTE":"27","EMAIL":"VIVIANADELCARMEN.PUDAHUEL@gmail.com","NOMBRE":"VIVIANA DEL CARMEN CARRIZO"},{"IDCLIENTE":"28","EMAIL":"MARCOANTONIO.QTA.NORMAL@gmail.com","NOMBRE":"MARCO ANTONIO SILVA"},{"IDCLIENTE":"29","EMAIL":"EVELYN.ELMONTE@gmail.com","NOMBRE":"EVELYN SANTANDER"},{"IDCLIENTE":"30","EMAIL":"JESSICADELOURDES.LOPRADO@gmail.com","NOMBRE":"JESSICA DE LOURDES INOSTROZA"},{"IDCLIENTE":"31","EMAIL":"LUISARTURO.HUECHURABA@gmail.com","NOMBRE":"LUIS ARTURO SEPULVEDA"},{"IDCLIENTE":"32","EMAIL":"MARIORODOLFO.MACUL@gmail.com","NOMBRE":"MARIO RODOLFO OLIVARES"},{"IDCLIENTE":"33","EMAIL":"JOSE.PUDAHUEL@gmail.com","NOMBRE":"JOSE GARCIA"},{"IDCLIENTE":"34","EMAIL":"JORGEANTONIO.LAREINA@gmail.com","NOMBRE":"JORGE ANTONIO ROJO"},{"IDCLIENTE":"35","EMAIL":"MIRNALORENA.PUENTEALTO@gmail.com","NOMBRE":"MIRNA LORENA MARASOLI"},{"IDCLIENTE":"36","EMAIL":"JUANFRANCISCO.QUINTANORMAL@gmail.com","NOMBRE":"JUAN FRANCISCO LOPEZ"},{"IDCLIENTE":"37","EMAIL":"SIMONMAURICIO.NULL@gmail.com","NOMBRE":"SIMON MAURICIO ARANDA"},{"IDCLIENTE":"38","EMAIL":"ALVAROROMAN.PUDAHUEL@gmail.com","NOMBRE":"ALVARO ROMAN VEGA"},{"IDCLIENTE":"39","EMAIL":"MARIAFABIOLA.PEDROAGUIRRECERDA@gmail.com","NOMBRE":"MARIA FABIOLA GONZALEZ"},{"IDCLIENTE":"40","EMAIL":"CLAUDIOGONZALO.NULL@gmail.com","NOMBRE":"CLAUDIO GONZALO DURAN"},{"IDCLIENTE":"41","EMAIL":"JUANENRIQUE.PEDROAGUIRRECERDA@gmail.com","NOMBRE":"JUAN ENRIQUE MENA"},{"IDCLIENTE":"42","EMAIL":"BRENDAMAGNA.PAINE@gmail.com","NOMBRE":"BRENDA MAGNA SAAVEDRA"},{"IDCLIENTE":"43","EMAIL":"ANAMARIA.QUILICURA@gmail.com","NOMBRE":"ANA MARIA VILLEGAS"},{"IDCLIENTE":"44","EMAIL":"FERNANDOANDRES.LASCONDES@gmail.com","NOMBRE":"FERNANDO ANDRES BELTRAN"},{"IDCLIENTE":"45","EMAIL":"HECTOROCTAVIO.QUINTANORMAL@gmail.com","NOMBRE":"HECTOR OCTAVIO SOTO"},{"IDCLIENTE":"46","EMAIL":"RUBENM..EST.CENTRAL@gmail.com","NOMBRE":"RUBEN M. GALVEZ"},{"IDCLIENTE":"47","EMAIL":"JORGELUIS.QUILICURA@gmail.com","NOMBRE":"JORGE LUIS PENA"},{"IDCLIENTE":"48","EMAIL":"JOSEGUILLERMO.ESTACIONCENTRAL@gmail.com","NOMBRE":"JOSE GUILLERMO BECERRA"},{"IDCLIENTE":"49","EMAIL":"GERARDOANTONIO.CERRONAVIA@gmail.com","NOMBRE":"GERARDO ANTONIO ROCHA"},{"IDCLIENTE":"50","EMAIL":"CRISTIANPATRICIO.LOPRADO@gmail.com","NOMBRE":"CRISTIAN PATRICIO JAUREGUI"}]}

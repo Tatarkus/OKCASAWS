@@ -42,7 +42,7 @@ async function init()
 	//Obtiene todos los servicios y retorna un json
 	app.get("/clientesbanco", async (req, res, next) => 
 	{
-		console.log("Consultando todos los servicios");
+		console.log("Consultando todos los clienes");
 		console.log('Conectandose con la base de datos...');
 	  	try 
 		{
@@ -54,7 +54,7 @@ async function init()
 		(
 			// query
 			`
-			SELECT * FROM CLIENTESBANCO
+			SELECT * FROM CLIENTEBANCO
 			`,// poner como variable, mayor seguridad, https://github.com/oracle/node-oracledb/issues/946
 			{
 				//opcional
@@ -62,7 +62,7 @@ async function init()
 			}
 		//MAGIA DE EXPRESS - USA PROMESAS - RETORNA EL JSON.
 		).then(rows => 
-			{	console.log("Entregando solicitudes pendientes");
+			{	console.log("Entregando clientes");
 				console.log(rows.metaData.length);
 				console.log(rows.rows.length);
 				if (rows.rows.length>0) 
