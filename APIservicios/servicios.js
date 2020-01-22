@@ -14,7 +14,7 @@ console.log('Iniciado servicio en el puerto: ' + port);
 dbConfig = {
 	user          : process.env.NODE_ORACLEDB_USER || "okcasa",
 	password      : process.env.NODE_ORACLEDB_PASSWORD || "123",
-	connectString : process.env.NODE_ORACLEDB_CONNECTIONSTRING || "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)))",
+	connectString : process.env.NODE_ORACLEDB_CONNECTIONSTRING || "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=xe)))",
 	externalAuth  : process.env.NODE_ORACLEDB_EXTERNALAUTH ? true : false
 };
 console.log("Config DB:")	
@@ -54,25 +54,24 @@ async function init()
 		//MAGIA DE EXPRESS - USA PROMESAS - RETORNA EL JSON.
 		).then(rows => 
 			{	
-				var mijson={};
-				//var fila = {idservicio:"1",descripcion:"asad"};
-				//console.log(fila.dservicio);
-				//console.log(rows.metaData.name[0]);
-				console.log(rows.metaData[1])
-				console.log(rows.rows[0][1]); //[fila][id,descripcion]
-				console.log(rows.rows.length);
-				
+				var mijson="{\"filas\":[";					
 				for (var i = 0; i < rows.rows.length; i++) 
 				{
-					for (var j = 0; i < rows.metaData.length; i++) 
+					mijson+="{";
+					for (var j = 0; j < rows.metaData.length; j++) 
 					{	
-						//var fila = { rows.metaData[j]:rows.rows[i][j] };
-						console.log(rows.metaData[j]);
-						console.log(rows.rows[i][j]);
+						var llave = rows.metaData[j].name;
+						var valor = rows.rows[i][j];
+						mijson+="\""+llave+"\":\""+valor+"\",";	
 					}
+					mijson = mijson.substring(0, mijson.length - 1)
+					mijson+="},";
 				}
-				//console.log("Entregando informacion de los servicios");
-				res.json(rows);
+				mijson = mijson.substring(0, mijson.length - 1)
+				mijson+="]}";
+				console.log(mijson);
+				json = JSON.parse(mijson)
+				res.json(json);
 			})
 	  		.catch(err => {
 				return
