@@ -137,7 +137,7 @@ app.post('/agendarvisita', async function(req, res) {
 
 		const result =  await conexion.execute
 		(
-			// query
+			//query
 			`
 			INSERT INTO salidaterreno(idsalida,fecha,comentarios,idsolicitud,idequipo)
 			values(null,:fecha,;comentarios,;idsolicitud:idequipo)
@@ -153,7 +153,7 @@ app.post('/agendarvisita', async function(req, res) {
 		).then(rows => 
 			{	
 
-
+				res.send(rows);
 				
 			})
 	  		.catch(err => {
