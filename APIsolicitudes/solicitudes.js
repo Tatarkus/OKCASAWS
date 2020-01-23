@@ -6,12 +6,14 @@ require('dotenv').config();
 var bodyParser = require('body-parser');
 
 var app        = express(); 
+app.use(express.json())
 var port = process.env.APP_PORT || 3002;
 var upload = multer();
 
 app.use(upload.array()); 
-app.use(bodyParser.json()); // soporte para cuerpos de pagina en json
-app.use(bodyParser.urlencoded({ extended: true }));
+//app.use(bodyParser.json()); // soporte para cuerpos de pagina en json - no lo ocupo, ver abajo
+app.use(express.json()) //funciona de express 4.16.0
+//app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.use(cors());
 
@@ -113,10 +115,48 @@ async function init()
 		}		
 	});
 }
-
+//esto no hace nada
 	app.post('/nueva', function(req, res) {
 		console.log("Insertando nueva solicitud")
 		console.log(req.body);
+		res.send("recieved your request!");
+});
+
+app.post('/agendarvisita', function(req, res) {
+		console.log("Insertando nueva visita")
+		//conectarse
+		const conexion = await oracledb.getConnection(dbConfig);
+		console.log( conexion != null ? "Conexión Exitosa" : "Error en la conexión");
+		//consulta
+		console.log(req.body);      // el json recibido
+		mijson = req.body
+		console.log(mijson.comentario)
+
+		/*const result =  await conexion.execute
+		(
+			// query
+			`
+			INSERT INTO salidaterreno(idsalida,fecha,comentarios,idsolicitud,idequipo)
+			values(null,:fecha,;comentarios,;idsolicitud:idequipo)
+			`,// poner como variable, mayor seguridad, https://github.com/oracle/node-oracledb/issues/946
+			{
+				fecha: { dir: oracledb.BIND_IN, val: mifecha, type: oracledb.DATE },
+				comentarios: { dir: oracledb.BIND_IN, val: micomentario, type: oracledb.STRING },
+				idsolicitud: { dir: oracledb.BIND_IN, val: miidsolicitud},
+				idequipo: { dir: oracledb.BIND_IN, val: miidequipo}
+
+			}
+		//MAGIA DE EXPRESS - USA PROMESAS - RETORNA EL JSON.
+		).then(rows => 
+			{	
+
+
+				
+			})
+	  		.catch(err => {
+				return
+	  		});*/
+		//console.log(req.body);
 		res.send("recieved your request!");
 });
 	
