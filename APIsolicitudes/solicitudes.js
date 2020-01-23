@@ -122,7 +122,7 @@ async function init()
 		res.send("recieved your request!");
 });
 
-app.post('/agendarvisita', function(req, res) {
+app.post('/agendarvisita', async function(req, res) {
 		console.log("Insertando nueva visita")
 		//conectarse
 		const conexion = await oracledb.getConnection(dbConfig);
