@@ -1,8 +1,0 @@
-Iniciado servicio equipos disponible en el puerto: 3001
-Config DB:
-{
-  user: 'okcasa',
-  password: '123',
-  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
-  externalAuth: false
-}
