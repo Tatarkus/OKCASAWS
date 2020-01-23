@@ -130,9 +130,12 @@ app.post('/agendarvisita', async function(req, res) {
 		//consulta
 		console.log(req.body);      // el json recibido
 		mijson = req.body
-		console.log(mijson.comentario)
+		micomentario = mijson.comentarios
+		mifecha = mijson.fecha
+		miidsolicitud = mijson.idsolicitud
+		miidequipo = mijson.idequipo
 
-		/*const result =  await conexion.execute
+		const result =  await conexion.execute
 		(
 			// query
 			`
@@ -155,7 +158,7 @@ app.post('/agendarvisita', async function(req, res) {
 			})
 	  		.catch(err => {
 				return
-	  		});*/
+	  		});
 		//console.log(req.body);
 		res.send("recieved your request!");
 });
