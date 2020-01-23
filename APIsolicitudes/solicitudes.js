@@ -107,7 +107,7 @@ async function init() {
 		}
 	});
 
-	app.post('/historialsolicitudes', async (req, res) => {
+	app.get('/historialsolicitudes', async (req, res) => {
 		console.log("Consultando todas las solicitudes");
 		console.log('Conectandose con la base de datos...');
 		try {
