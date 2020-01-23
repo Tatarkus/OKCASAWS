@@ -770,3 +770,367 @@ Entregando clientes
 3
 50
 {"filas":[{"IDCLIENTE":"1","EMAIL":"MARCOSYAMIR.PUDAHUEL@gmail.com","NOMBRE":"MARCOS YAMIR CARRERAS"},{"IDCLIENTE":"2","EMAIL":"TITOJAVIER.ESTACIONCENTRAL@gmail.com","NOMBRE":"TITO JAVIER NEGRETE"},{"IDCLIENTE":"3","EMAIL":"MANUEL.LOPRADO@gmail.com","NOMBRE":"MANUEL CUELLAR"},{"IDCLIENTE":"4","EMAIL":"ANDRESALONSO.SANTIAGO@gmail.com","NOMBRE":"ANDRES ALONSO MARIN"},{"IDCLIENTE":"5","EMAIL":"CECILIADELASMERCEDES.PROVIDENCIA@gmail.com","NOMBRE":"CECILIA DE LAS MERCEDES GUERRERO"},{"IDCLIENTE":"6","EMAIL":"ALEXCRISTIAN.LAGRANJA@gmail.com","NOMBRE":"ALEX CRISTIAN HITSCHERICH"},{"IDCLIENTE":"7","EMAIL":"LUCIADELCARMEN.MAIPU@gmail.com","NOMBRE":"LUCIA DEL CARMEN VALENZUELA"},{"IDCLIENTE":"8","EMAIL":"EVELYNSIMONEYSANDY.NUNOA@gmail.com","NOMBRE":"EVELYN SIMONEY SANDY PEREZ"},{"IDCLIENTE":"9","EMAIL":"XIMENADELPILAR.CONCHALI@gmail.com","NOMBRE":"XIMENA DEL PILAR CORNEJO"},{"IDCLIENTE":"10","EMAIL":"JORGEANDRES.LAGRANJA@gmail.com","NOMBRE":"JORGE ANDRES GUTIERREZ"},{"IDCLIENTE":"11","EMAIL":"JAVIERADOLFO.INDEPENDENCIA@gmail.com","NOMBRE":"JAVIER ADOLFO RAMIREZ"},{"IDCLIENTE":"12","EMAIL":"VIVIANAC.LOPRADO@gmail.com","NOMBRE":"VIVIANA C FARIAS"},{"IDCLIENTE":"13","EMAIL":"LUISPATRICIO.LACISTERNA@gmail.com","NOMBRE":"LUIS PATRICIO BRAVO"},{"IDCLIENTE":"14","EMAIL":"SOLANGEVERONICA.ELBOSQUE@gmail.com","NOMBRE":"SOLANGE VERONICA BRICENO"},{"IDCLIENTE":"15","EMAIL":"MARCELORODRIGO.SANTIAGO@gmail.com","NOMBRE":"MARCELO RODRIGO ESCUDERO"},{"IDCLIENTE":"16","EMAIL":"MAURICIOENRIQUE.NULL@gmail.com","NOMBRE":"MAURICIO ENRIQUE HERMOSILLA"},{"IDCLIENTE":"17","EMAIL":"JUANDEDIOS.PENALOLEN@gmail.com","NOMBRE":"JUAN DE DIOS MARTEL"},{"IDCLIENTE":"18","EMAIL":"ELIZABETHEDITH.ELBOSQUE@gmail.com","NOMBRE":"ELIZABETH EDITH SYMMES"},{"IDCLIENTE":"19","EMAIL":"FRANCISCOANTONIO.LAGRANJA@gmail.com","NOMBRE":"FRANCISCO ANTONIO MUNOZ"},{"IDCLIENTE":"20","EMAIL":"CARLOSMAURICIO.PUENTEALTO@gmail.com","NOMBRE":"CARLOS MAURICIO GOMEZ"},{"IDCLIENTE":"21","EMAIL":"PAOLAALEJANDRA.PENAFLOR@gmail.com","NOMBRE":"PAOLA ALEJANDRA TOLEDO"},{"IDCLIENTE":"22","EMAIL":"ARIELANDRES.LAFLORIDA@gmail.com","NOMBRE":"ARIEL ANDRES SOTO"},{"IDCLIENTE":"23","EMAIL":"CRISTIANESTEBAN.MACUL@gmail.com","NOMBRE":"CRISTIAN ESTEBAN CISTERNA"},{"IDCLIENTE":"24","EMAIL":"SUSANA.PIRQUE@gmail.com","NOMBRE":"SUSANA BARRIOS"},{"IDCLIENTE":"25","EMAIL":"BERTADELCARMEN.CERRILLOS@gmail.com","NOMBRE":"BERTA DEL CARMEN HERRERA"},{"IDCLIENTE":"26","EMAIL":"ALEJANDROSALVADOR.SANTIAGO@gmail.com","NOMBRE":"ALEJANDRO SALVADOR ZUNIGA"},{"IDCLIENTE":"27","EMAIL":"VIVIANADELCARMEN.PUDAHUEL@gmail.com","NOMBRE":"VIVIANA DEL CARMEN CARRIZO"},{"IDCLIENTE":"28","EMAIL":"MARCOANTONIO.QTA.NORMAL@gmail.com","NOMBRE":"MARCO ANTONIO SILVA"},{"IDCLIENTE":"29","EMAIL":"EVELYN.ELMONTE@gmail.com","NOMBRE":"EVELYN SANTANDER"},{"IDCLIENTE":"30","EMAIL":"JESSICADELOURDES.LOPRADO@gmail.com","NOMBRE":"JESSICA DE LOURDES INOSTROZA"},{"IDCLIENTE":"31","EMAIL":"LUISARTURO.HUECHURABA@gmail.com","NOMBRE":"LUIS ARTURO SEPULVEDA"},{"IDCLIENTE":"32","EMAIL":"MARIORODOLFO.MACUL@gmail.com","NOMBRE":"MARIO RODOLFO OLIVARES"},{"IDCLIENTE":"33","EMAIL":"JOSE.PUDAHUEL@gmail.com","NOMBRE":"JOSE GARCIA"},{"IDCLIENTE":"34","EMAIL":"JORGEANTONIO.LAREINA@gmail.com","NOMBRE":"JORGE ANTONIO ROJO"},{"IDCLIENTE":"35","EMAIL":"MIRNALORENA.PUENTEALTO@gmail.com","NOMBRE":"MIRNA LORENA MARASOLI"},{"IDCLIENTE":"36","EMAIL":"JUANFRANCISCO.QUINTANORMAL@gmail.com","NOMBRE":"JUAN FRANCISCO LOPEZ"},{"IDCLIENTE":"37","EMAIL":"SIMONMAURICIO.NULL@gmail.com","NOMBRE":"SIMON MAURICIO ARANDA"},{"IDCLIENTE":"38","EMAIL":"ALVAROROMAN.PUDAHUEL@gmail.com","NOMBRE":"ALVARO ROMAN VEGA"},{"IDCLIENTE":"39","EMAIL":"MARIAFABIOLA.PEDROAGUIRRECERDA@gmail.com","NOMBRE":"MARIA FABIOLA GONZALEZ"},{"IDCLIENTE":"40","EMAIL":"CLAUDIOGONZALO.NULL@gmail.com","NOMBRE":"CLAUDIO GONZALO DURAN"},{"IDCLIENTE":"41","EMAIL":"JUANENRIQUE.PEDROAGUIRRECERDA@gmail.com","NOMBRE":"JUAN ENRIQUE MENA"},{"IDCLIENTE":"42","EMAIL":"BRENDAMAGNA.PAINE@gmail.com","NOMBRE":"BRENDA MAGNA SAAVEDRA"},{"IDCLIENTE":"43","EMAIL":"ANAMARIA.QUILICURA@gmail.com","NOMBRE":"ANA MARIA VILLEGAS"},{"IDCLIENTE":"44","EMAIL":"FERNANDOANDRES.LASCONDES@gmail.com","NOMBRE":"FERNANDO ANDRES BELTRAN"},{"IDCLIENTE":"45","EMAIL":"HECTOROCTAVIO.QUINTANORMAL@gmail.com","NOMBRE":"HECTOR OCTAVIO SOTO"},{"IDCLIENTE":"46","EMAIL":"RUBENM..EST.CENTRAL@gmail.com","NOMBRE":"RUBEN M. GALVEZ"},{"IDCLIENTE":"47","EMAIL":"JORGELUIS.QUILICURA@gmail.com","NOMBRE":"JORGE LUIS PENA"},{"IDCLIENTE":"48","EMAIL":"JOSEGUILLERMO.ESTACIONCENTRAL@gmail.com","NOMBRE":"JOSE GUILLERMO BECERRA"},{"IDCLIENTE":"49","EMAIL":"GERARDOANTONIO.CERRONAVIA@gmail.com","NOMBRE":"GERARDO ANTONIO ROCHA"},{"IDCLIENTE":"50","EMAIL":"CRISTIANPATRICIO.LOPRADO@gmail.com","NOMBRE":"CRISTIAN PATRICIO JAUREGUI"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+/home/ec2-user/OKCasa/APIsolicitudes/solicitudes.js:128
+		const conexion = await oracledb.getConnection(dbConfig);
+		                 ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1060:16)
+    at Module._compile (internal/modules/cjs/loader.js:1108:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+Iniciado servicio en el puerto: 3002
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
+  externalAuth: false
+}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
+Iniciado servicio en el puerto: 3002
+Config DB:
+{
+  user: 'okcasa',
+  password: '123',
+  connectString: 'okcasa.cr7hj31wtehr.us-east-2.rds.amazonaws.com:1521/ORCL',
+  externalAuth: false
+}
+Consultando todos los servicios
+Conectandose con la base de datos...
+Conexión Exitosa
+{"filas":[{"IDSERVICIO":"1","DESCRIPCION":"Verificacion de instalaciones y terminaciones"},{"IDSERVICIO":"2","DESCRIPCION":"Medicion de metros cuadrados de la vivienda"},{"IDSERVICIO":"3","DESCRIPCION":"Inspeccion de luz, instalaciones sanitarias y gas"},{"IDSERVICIO":"4","DESCRIPCION":"Termografias"}]}
