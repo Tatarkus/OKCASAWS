@@ -18,7 +18,7 @@ app.use(cors());
 
 app.listen(port);
 console.log('Iniciado servicio en el puerto: ' + port);
-
+oracledb.autoCommit = true;
 //configuracion datos DB
 //la configuracion puede estar en el archivo .env
 dbConfig = {
@@ -190,32 +190,29 @@ app.post('/agendarvisita', async function(req, res) {
 		miidsolicitud = mijson.idsolicitud
 		miidequipo = mijson.idequipo
 
-		const result =  await conexion.execute
-		(
-			//query
-			`
-			INSERT INTO salidaterreno(idsalida,fecha,comentarios,idsolicitud,idequipo)
-			values(null,:fecha,;comentarios,;idsolicitud:idequipo)
-			`,// poner como variable, mayor seguridad, https://github.com/oracle/node-oracledb/issues/946
-			{
-				fecha: { dir: oracledb.BIND_IN, val: mifecha, type: oracledb.DATE },
-				comentarios: { dir: oracledb.BIND_IN, val: micomentario, type: oracledb.STRING },
-				idsolicitud: { dir: oracledb.BIND_IN, val: miidsolicitud},
-				idequipo: { dir: oracledb.BIND_IN, val: miidequipo}
+		try{
+			const result =  await conexion.execute
+			(
+				//query
+				`
+				INSERT INTO salidaterreno(idsalida,fecha,comentarios,idsolicitud,idequipo)
+				values(null,to_date(:fecha,'DD/MM/YY'),:comentarios,:idsolicitud,:idequipo)
+				`,// poner como variable, mayor seguridad, https://github.com/oracle/node-oracledb/issues/946
+				{
+					fecha: { dir: oracledb.BIND_IN, val: mifecha, type: oracledb.STRING },
+					comentarios: { dir: oracledb.BIND_IN, val: micomentario, type: oracledb.STRING },
+					idsolicitud: { dir: oracledb.BIND_IN, val: miidsolicitud, type: oracledb.STRING },
+					idequipo: { dir: oracledb.BIND_IN, val: miidequipo,type: oracledb.SRING}
 
-			}
-		//MAGIA DE EXPRESS - USA PROMESAS - RETORNA EL JSON.
-		).then(rows => 
-			{	
+				}
+			//MAGIA DE EXPRESS - USA PROMESAS - RETORNA EL JSON.
+			);
+			//console.log(req.body);
+			res.send(result);
+		}catch(err){
+			console.error(err)
+		}
 
-				res.send(rows);
-				
-			})
-	  		.catch(err => {
-				return
-	  		});
-		//console.log(req.body);
-		res.send("recieved your request!");
 });
 	
 init();
