@@ -120,7 +120,7 @@ async function init() {
 					// query
 					`
 			SELECT *
-			FROM solicitud WHERE idcliente = :id
+			FROM solicitud WHERE idcliente = :id ORDER BY idcliente DESC
 			`,// poner como variable, mayor seguridad, https://github.com/oracle/node-oracledb/issues/946
 					{
 						id: {val: req.body.id}
