@@ -3,17 +3,7 @@ var oracledb = require('oracledb');
 var multer = require('multer');
 var cors = require('cors')
 require('dotenv').config();
-var bodyParser = require('body-parser');
-
-<<<<<<< HEAD
-var app = express();
-var port = process.env.APP_PORT || 3002;
-var upload = multer();
-
-app.use(upload.array());
-app.use(bodyParser.json()); // soporte para cuerpos de pagina en json
-app.use(bodyParser.urlencoded({ extended: true }));
-=======
+var bodyParser = require('body-parser')
 var app        = express(); 
 app.use(express.json())
 var port = process.env.APP_PORT || 3002;
@@ -23,7 +13,6 @@ app.use(upload.array());
 //app.use(bodyParser.json()); // soporte para cuerpos de pagina en json - no lo ocupo, ver abajo
 app.use(express.json()) //funciona de express 4.16.0
 //app.use(bodyParser.urlencoded({ extended: true }));
->>>>>>> af6d781a8331a7d4e13c3031f96e8052ca834c53
 app.use(express.static('public'));
 app.use(cors());
 
