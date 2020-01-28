@@ -75,6 +75,7 @@ async function init()
 				}
 				mijson = mijson.substring(0, mijson.length - 1)
 				mijson+="]}";
+				console.log("Enviando respuesta:")
 				console.log(mijson);
 				json = JSON.parse(mijson)
 				res.json(json);
